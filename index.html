@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Yatra Karo</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="./about.html">about us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./service.html">
+                            Services
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="contact.html">contact us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel section  -->
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/C-1.jpg" class="d-block w-100" alt="Kedarnath">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kedarnath Temple</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/C-2.jpg" class="d-block w-100" alt="Amarnath">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kailash Mansarovar</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/C-3.jpg" class="d-block w-100" alt="Kashi">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kashi Temple</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+    <!-- ======= About Section ======  -->
+    <section class="about my-5">
+        <div class="about-text">
+            <h1 class="text-center text-capitalize display-4">About Us</h1>
+            <hr class="mx-auto w-25" />
+        </div>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-6 col-md-6 col-12 col-xxl-6 ">
+                    <figure>
+                        <img src="./images/about-img.jpg" class="img-fluid about-img" alt="about us">
+                    </figure>
+
+                </div>
+                <div
+                    class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column">
+                    <h1>Our Journey</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, exercitationem? Nam aperiam
+                        tenetur deserunt repellendus eaque! Error beatae expedita recusandae praesentium repellendus
+                        ducimus aperiam! Quis, eveniet excepturi eius atque at sunt labore ipsum porro aliquid sapiente
+                        dolorum repellendus possimus doloremque assumenda blanditiis molestias. Corrupti vero, illum
+                        iste deleniti laborum laudantium?</p>
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip"
+                        data-bs-placement="right" title="Who are We?">
+                        Check More
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- about sectiom end  -->
+
+
+    <!-- =============== Services Section ============  -->
+
+    <section class="services my-5 bg-light pt-5">
+        <div class="services-text">
+            <h1 class="text-center text-capitalize display-4">Services</h1>
+            <hr class="mx-auto w-25" />
+        </div>
+
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+
+                    <!-- card 1 -->
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row ">
+                            <div class="col-md-4">
+                                <img src="./images/S-1.jpg" class="img-fluid rounded-start" alt="Foreign Trip">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Flight Tickets</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- card 2 -->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./images/S-2.jpg" class="img-fluid rounded-start" alt="Flight Ticket">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Foreign Trip</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- card 3 -->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./images/S-3.jpg" class="img-fluid rounded-start" alt="Char Dham Yatra">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Char Dham</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!--  -->
+
+                <!--  Button colomn  -->
+                <div class="col-12 text-center my-5">
+
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Our Services">
+                        Check More
+                    </button>
+                </div>
+
+                <!--  -->
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Services Section End  -->
+
+
+    <!--========== Gallery Section Starts Here ========================  -->
+
+
+    <section class="gallery pt-5">
+        <div class="gallery-text">
+            <h1 class="text-center text-capitalize display-4">gallery</h1>
+            <hr class="mx-auto w-25" />
+        </div>
+
+        <!-- grid -->
+
+        <div class="container">
+
+            <!-- Row  -->
+
+            <div class="row mt-5 gy-2">
+
+                <!-- img 1 -->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <figure>
+                        <img src="./images/C-3.jpg" class="img-fluid" alt="gallery img">
+                    </figure>
+                </div>
+
+                <!-- end -->
+
+                <!-- img 2 -->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <figure>
+                        <img src="./images/C-1.jpg" class="img-fluid" alt="gallery img">
+                    </figure>
+                </div>
+
+                <!-- end -->
+
+
+                <!-- img 3 -->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <figure>
+                        <img src="./images/C-2.jpg" class="img-fluid" alt="gallery img">
+                    </figure>
+                </div>
+
+                <!-- end -->
+
+
+                <!-- img 4 -->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <figure>
+                        <img src="./images/g-3.jpg" class="img-fluid " alt="gallery img">
+                    </figure>
+                </div>
+
+                <!-- end -->
+
+                <!-- img 5-->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <figure>
+                        <img src="./images/g-6.jpg" class=" img-fluid " alt="gallery img">
+                    </figure>
+                </div>
+
+                <!-- end -->
+
+
+                <!-- img 6 -->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <figure>
+                        <img src="./images/g-4.jpg" class="img-fluid " alt="gallery img">
+                    </figure>
+                </div>
+
+                <!-- end -->
+
+
+
+
+
+                <!-- img 7 -->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <figure>
+                        <img src="./images/g-5.jpg" class="img-fluid " alt="gallery img">
+                    </figure>
+                </div>
+
+                <!-- end -->
+
+                <!-- img 8-->
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <figure>
+                        <img src="./images/g-1.jpg" class="img-fluid " alt="gallery img">
+                    </figure>
+                </div>
+
+                <!-- end -->
+
+
+                <!-- img 9 -->
+
+                <div class="col-10 col-md-4 col-xxl-4 mx-auto">
+                    <figure>
+                        <img src="./images/g-2.jpg" class="img-fluid" alt="gallery img">
+                    </figure>
+                </div>
+
+                <!-- end -->
+            </div>
+
+
+
+
+        </div>
+
+
+    </section>
+
+
+    <!-- Gallery Section End  -->
+
+
+
+    <!-- =============== Offer Section ============  -->
+
+
+    <section class="offer my-5 offer-bg py-2">
+        <div class="container-fluid ">
+
+
+            <div class="row ">
+                <div class="col-12 col-xxl-12 text-center py-5">
+                    <h1 class=" text-white display-5">Check Out Our Videos</h1>
+                    <p>"Never give up on something that you can't go a day without thinking about."</p>
+                    <button type="button" class="btn btn-outline-light mx-auto" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                            <path fill-rule="evenodd"
+                                d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+
+                        </svg>
+                        Check More
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">See Our</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Hope! You like the videos.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href=""><button type="button" class="btn btn-primary">Check Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------- Modal End --------------------------------------- -->
+
+
+    <!-- Offer Section End  -->
+
+    <!-- =============== Contact Us Section ============  -->
+
+
+
+    <section class="contact my-5 ">
+        <div class="contact-text">
+            <h1 class="text-center text-capitalize display-5">contact us</h1>
+            <hr class="mx-auto w-25" />
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xxl-6 col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nameInput" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="nameInput">
+                        </div>
+                        <div class=" mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label class="pe-4">Gender</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Female</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio3">Other</label>
+                            </div>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleDataList" class="form-label">Select City</label>
+                            <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                placeholder="Type to search...">
+                            <datalist id="datalistOptions">
+                                <option value="San Francisco">
+                                <option value="Kerala">
+                                <option value="Goa">
+                                <option value="Los Angeles">
+                                <option value="Mumbai">
+                            </datalist>
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label">Default file input example</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Us Section End  -->
+
+
+    <!-- =============== Fooetr Section ============  -->
+
+    <footer class="bg-dark text-white text-center p-2">
+        <p class=" mb-0">Yatra Karo Copyright &copy; 2022 All Right Reserved.</p>
+    </footer>
+
+
+
+    <!-- Footer Section End  -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- ToolTip Script  -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <!-- end  -->
+</body>
+
+</html>
